@@ -47,7 +47,6 @@ public class ImageAdapter extends BaseAdapter {
 
     public void pokemonCaptured(int pos, int id)
     {
-    	Log.d("A","cocksucker");
     	//int id = getResources().getIdentifier(s, "drawable", "com.example.gridview");
         //mThumbIds[0]= R.drawable.class.getField(s).getInt(null);
         mThumbIds[pos]= id;
